@@ -1,0 +1,343 @@
+*{
+    background: black;
+}
+.form{
+    width: 295px;
+    height: 367px; /* Adjust width as needed */
+    padding: 20px;
+    padding-right: 33px;
+    border: 2px solid rgb(58, 58, 58); /* Creates the box */
+    box-shadow: none;
+    border-width: 1px;
+    margin-left: 783px;
+    margin-top: 45px;
+    margin-right: 250px;
+}
+#heading{
+    font-family: "Cookie", cursive;
+    text-align: center;
+    color: white;
+    font-size: 58px;
+    margin-top: 15px;
+    margin-left: 60px;
+
+}
+input{
+    height: 15px;
+    font-size: 15px;
+    color: white;
+    box-shadow: none;
+    margin-left: 20px;
+    margin-top: 38px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-color: rgb(108, 106, 106);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    text-align: left;
+    background-color: 
+    #161616;
+    
+}
+
+input::placeholder{
+    font-size: 12px;
+    color: rgb(149, 149, 149);
+    
+}
+
+#password{
+    margin-top: 7px;
+}
+
+.login{
+    background-color: #3780dfb8;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-right: 110px;
+    padding-top: 8px;
+    padding-left: 115px;
+    padding-bottom: 10px;
+    outline: none;
+    box-shadow: none;
+    border-color: #3780dfb8;
+    color: rgb(178, 175, 175);
+    height: 33px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 13px;
+    
+  }
+  
+  .divider hr {
+    flex: 1;
+    border: none;
+    border-top: 2px solid rgb(69, 67, 67);
+    border-width: 0.5px;
+    margin-left: 22px;
+    margin-right: 5px;
+   
+  }
+  
+  .divider span {
+    padding: 0 20px;
+    font-weight: bold;
+    color: rgb(149, 149, 149);
+    margin-right: -20px;
+    margin-left: -5px;
+
+  }
+.facebook{
+    color: rgb(47, 111, 202);
+    font-family: 'Roboto',sans-serif;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.facebook:hover{
+    color: white;
+    cursor: pointer;
+}
+.facebook:active{
+    color:rgb(176, 176, 176) ;
+}
+.forgot{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 22px;
+    margin-left: 93px;
+    
+}
+.forgot:hover{
+    cursor: pointer;
+}
+.forgot:active{
+    color: rgb(176, 176, 176);
+}
+.signup{
+    width: 295px;
+    height: 21px; /* Adjust width as needed */
+    padding: 20px;
+    padding-right: 33px;
+    border: 2px solid rgb(58, 58, 58); /* Creates the box */
+    box-shadow: none;
+    border-width: 1px;
+    margin-left: 783px;
+    margin-top: 10px;
+    margin-right: 250px;
+}
+.photo{
+    height: 18px;
+    padding-left: 77px;
+  
+    
+   
+}
+.signup{
+    text-align: center;
+    font-size: small;
+}
+.account{
+    color: white;
+    font-family: sans-serif; 
+    margin-top: 4px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.tag{
+    color:rgb(47, 111, 202) ;
+    text-decoration: none;
+}
+.tag:active{
+    color:rgb(28, 66, 119) ;
+}
+.container{
+    position: relative;
+}
+.screen{
+position: absolute;
+
+
+}
+
+.play{
+    position: relative;
+    border: 2px solid black;
+    width: 145px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    margin-left: 770px;
+    margin-top: -20px;
+    background-color: black;
+    
+}
+.phone{
+    height: 600px;
+    margin-left: 350px;
+   
+}
+base{
+    position:absolute;
+   
+}
+
+.base a.meta{
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 330px;
+    font-size: 12px;
+    font-family: sans-serif;
+    
+}
+
+.base a.about{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 370px;
+    font-size: 12px;
+    font-family: sans-serif;   
+}
+.base a.blog{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 410px;
+    font-size: 12px;
+    font-family: sans-serif;  
+}
+.base a.jobs{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 450px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.help{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 490px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.api{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 530px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.privacy{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 560px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.terms{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 620px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.location{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 670px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.lite{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 740px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.thread{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 830px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.contact{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 890px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a.verified{
+    padding-left: 0px; 
+    position: absolute;
+    
+    color: rgb(149, 149, 149); 
+    text-decoration: none;
+    margin-left: 1075px;
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+.base a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    color: rgb(149, 149, 149);
+    font-family: sans-serif; 
+    font-size: 12px ;
+    margin-top: 19px;
+    margin-left: 700px;
+}
